@@ -2,6 +2,9 @@
   "name": "tuto-node-mail",
   "version": "1.0.0",
   "description": "Formation sur NodeJS ",
+  "now": {
+    "dotenv": "variables.env"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
