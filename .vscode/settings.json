@@ -1,3 +1,6 @@
 {
-  "prettier.semi": false
+  "prettier.semi": false,
+  "standard.autoFixOnSave": true,
+  "prettier.packageManager": "yarn",
+  "prettier.trailingComma": "none"
 }

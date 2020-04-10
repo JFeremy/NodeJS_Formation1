@@ -41,3 +41,7 @@ button {
   text-transform: uppercase;
   font-weight: bolder;
 }
+
+.flash {
+  background-color: yellow;
+}

@@ -9,11 +9,12 @@ html(lang="en")
   body
     section
       h1 Nous contacter
-      form(action='/')
+      p.flash #{flash}
+      form(method="POST" action='/')
         label(for="name") Prénom :
-        input#name(type="text" placeholder="Prénom" name="name")
+        input#name(type="text" placeholder="Prénom" name="name" value="jean michel")
         label(for="email") Mail :
-        input#email(type="mail" placeholder="Email" name="mail")
+        input#email(type="mail" placeholder="Email" name="email" value="jean-michel@gmmail.com")
         label(for="message") Message :
-        textarea#message(name="message", cols="30", rows="10")
+        textarea#message(name="message", cols="30", rows="10") Salut mon pote !
         button(type="submit") Envoyer
